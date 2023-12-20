@@ -2,6 +2,12 @@ import requests
 import json
 import time
 
+# ---
+# Coded by Odd!
+# Github: https://github.com/OddDevelopment/OperaGX-Nitro-Gen
+# Portfolio: https://odd.gay
+# ---
+
 url = 'https://api.discord.gx.games/v1/direct-fulfillment'
 headers = {
     'authority': 'api.discord.gx.games',
@@ -24,19 +30,13 @@ data = {
 }
 
 while True:
-    # Sending POST request
     response = requests.post(url, headers=headers, data=json.dumps(data))
-
-    # Checking if the request was successful
     if response.status_code == 200:
         token = json.loads(response.text)['token']
-        # Writing token to codes.txt with the specified URL prefix
-        with open('codes.txt', 'a') as file:  # Use 'a' to append to the file
+        with open('codes.txt', 'a') as file:
             file.write(f"https://discord.com/billing/partner-promotions/1180231712274387115/{token}\n")
         print("Token saved to codes.txt file.")
     else:
         print(f"Request failed with status code {response.status_code}.")
         print(f"Error message: {response.text}")
-
-    # Wait for 1 second before the next iteration
     time.sleep(1)
