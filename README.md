@@ -5,3 +5,4 @@
   - `pip install requests`
 4. Run the script!
   - `python app.py`
+### Please star if it works and if it did not make an issue <3
