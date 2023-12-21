@@ -2,6 +2,12 @@ import requests
 import json
 import time
 
+# ---
+# Coded by Odd!
+# Github: https://github.com/OddDevelopment/OperaGX-Nitro-Gen
+# Portfolio: https://odd.gay
+# ---
+
 url = 'https://api.discord.gx.games/v1/direct-fulfillment'
 headers = {
     'authority': 'api.discord.gx.games',
