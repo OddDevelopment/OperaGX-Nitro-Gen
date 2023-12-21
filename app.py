@@ -2,12 +2,6 @@ import requests
 import json
 import time
 
-# ---
-# Coded by Odd!
-# Github: https://github.com/OddDevelopment/OperaGX-Nitro-Gen
-# Portfolio: https://odd.gay
-# ---
-
 url = 'https://api.discord.gx.games/v1/direct-fulfillment'
 headers = {
     'authority': 'api.discord.gx.games',
@@ -29,14 +23,25 @@ data = {
     'partnerUserId': '50b1bf177eca2a06f77680c1aa6277e1d5a44eb6d8b4a72545348e4828cf0753'
 }
 
-while True:
-    response = requests.post(url, headers=headers, data=json.dumps(data))
-    if response.status_code == 200:
-        token = json.loads(response.text)['token']
-        with open('codes.txt', 'a') as file:
-            file.write(f"https://discord.com/billing/partner-promotions/1180231712274387115/{token}\n")
-        print("Token saved to codes.txt file.")
-    else:
-        print(f"Request failed with status code {response.status_code}.")
-        print(f"Error message: {response.text}")
-    time.sleep(1)
+session = requests.Session()
+
+try:
+    while True:
+        response = session.post(url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            token = response.json()['token']
+            with open('codes.txt', 'a') as file:
+                file.write(f"https://discord.com/billing/partner-promotions/1180231712274387115/{token}\n")
+            print("Token saved to codes.txt file.")
+        else:
+            print(f"Request failed with status code {response.status_code}.")
+            print(f"Error message: {response.text}")
+
+        time.sleep(1)
+
+except Exception as e:
+    print(f"An error occurred: {str(e)}")
+
+finally:
+    session.close()
