@@ -15,3 +15,5 @@ No account needed, Just click run!
 
 ## Stars 💖✨
 [![Star History Chart](https://api.star-history.com/svg?repos=OddDevelopment/OperaGX-Nitro-Gen&type=Date)](https://star-history.com/#OddDevelopment/OperaGX-Nitro-Gen&Date)
+
+Thanks for 10 stars 💖
