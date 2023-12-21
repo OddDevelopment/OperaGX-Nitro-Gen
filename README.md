@@ -23,4 +23,4 @@ Thanks for 10 stars 💖
 
 ![image](https://github.com/OddDevelopment/OperaGX-Nitro-Gen/assets/135460135/7c3c6713-b112-4168-8a38-b2e6a63a0c82)
 
-(Open a ticket if you are having any issues)
+(Open an issue if you are having any issues)
