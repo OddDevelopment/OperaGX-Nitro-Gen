@@ -48,6 +48,12 @@ if __name__ == "__main__":
                 with open('codes.txt', 'a') as file:
                     file.write(f"https://discord.com/billing/partner-promotions/1180231712274387115/{token}\n")
                 print("Token saved to codes.txt file.")
+            elif response.status_code == 429:
+                print("Rate limit exceeded! Waiting one minute to allow for cooldown.")
+                time.sleep(60)
+            elif response.status_code == 504:
+                print("Server timed out! Trying again in 5 seconds.")
+                time.sleep(5)
             else:
                 print(f"Request failed with status code {response.status_code}.")
                 print(f"Error message: {response.text}")
