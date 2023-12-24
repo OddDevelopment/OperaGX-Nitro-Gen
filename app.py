@@ -7,7 +7,7 @@ import string
 
 # ---
 # Coded by Odd!
-# Contributers: DuckyBlender and NorthernChicken
+# Contributers: DuckyBlender and NorthernChicken and NotClavilux
 # Github: https://github.com/OddDevelopment/OperaGX-Nitro-Gen
 # Portfolio: https://odd.gay
 # ---
