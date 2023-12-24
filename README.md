@@ -1,26 +1,44 @@
-## How to use!?!??
-1. Install python
-2. Open console
-3. Install packages
-  - `pip install requests`
-4. Run the script!
-  - `python app.py`
-5. Star the repo if it worked and if not make an issue! ✨💖
+## How to Use
 
-#### Quick run in the cloud
+1. **Install Python:**
+   - Download and install Python from [python.org](https://www.python.org/downloads/).
+
+2. **Open Console:**
+   - Open a command-line interface or terminal.
+
+3. **Install Required Packages:**
+   - Install the necessary packages by running:
+     ```bash
+     pip install requests
+     ```
+
+4. **Get Proxies :**
+   - You can obtain proxies from websites like [proxyscrape](https://proxyscrape.com/).
+   - Save the list of proxies in a file named `proxies.txt` in the same directory as the generator.
+
+5. **Run the Script:**
+   - Execute the script using:
+     ```bash
+     python app.py
+     ```
+
+6. **Star the Repo:**
+   - If it worked well, consider starring the repository! ✨💖
+
+### Quick Run in the Cloud
 
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/@RealOddPvP/OperaGX-Nitro-Generator?v=1)
 
-No account needed, Just click run!
+No account needed. Just click "Run"!
 
 ## Stars 💖✨
 [![Star History Chart](https://api.star-history.com/svg?repos=OddDevelopment/OperaGX-Nitro-Gen&type=Date)](https://star-history.com/#OddDevelopment/OperaGX-Nitro-Gen&Date)
 
-Thanks for 30 stars 💖
+Thank you for 30 stars! 💖
 
-## Update log
-⭐ Works as of 12/23/2023
+## Update Log
+⭐ Works as of 12/24/2023
 
-![image](https://github.com/OddDevelopment/OperaGX-Nitro-Gen/assets/135460135/7c3c6713-b112-4168-8a38-b2e6a63a0c82)
+![Image](https://github.com/OddDevelopment/OperaGX-Nitro-Gen/assets/135460135/7c3c6713-b112-4168-8a38-b2e6a63a0c82)
 
-(Open an issue if you are having any issues)
+If you encounter any issues, please open an issue on the repository.
