@@ -11,7 +11,7 @@
 
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/@RealOddPvP/OperaGX-Nitro-Generator?v=1)
 
-No account needed, Just click run!
+Easy to run! Just fork and click run!
 
 ## Stars 💖✨
 [![Star History Chart](https://api.star-history.com/svg?repos=OddDevelopment/OperaGX-Nitro-Gen&type=Date)](https://star-history.com/#OddDevelopment/OperaGX-Nitro-Gen&Date)
