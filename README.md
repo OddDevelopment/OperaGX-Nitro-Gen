@@ -1,4 +1,4 @@
-# NOTE: OperaGX and Discord's promotional nitro giveaway is over, so you will no longer be able to generate nitro codes as of 2/28/24/
+# NOTE: OperaGX and Discord's promotional nitro giveaway is over, so you will no longer be able to generate nitro codes as of 2/28/24
 
 ## How to use!?!??
 1. Install python
