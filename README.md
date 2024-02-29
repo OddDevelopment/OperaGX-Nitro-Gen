@@ -21,8 +21,6 @@ Easy to run! Just fork and click run!
 Thanks for 30 stars 💖
 
 ## Update log
-⭐ Works as of 12/23/2023
+⭐ Does not work as of 2/28/24
 
 ![image](https://github.com/OddDevelopment/OperaGX-Nitro-Gen/assets/135460135/7c3c6713-b112-4168-8a38-b2e6a63a0c82)
-
-(Open an issue if you are having any issues)
