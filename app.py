@@ -8,6 +8,8 @@ import time
 # Portfolio: https://odd.rip
 # ---
 
+print("Our project is https://github.com/OddDevelopment/OperaGX-Nitro-Gen please give it a star to support the project <3.\n\nMore about me: https://odd.rip\n\n\n")
+
 def get_token():
   url = "https://api.gx.me/profile/token"
   headers = {
@@ -53,7 +55,7 @@ def main():
     token = get_token()
     if token:
       new_url = f"https://discord.com/billing/partner-promotions/1180231712274387115/{token}"
-      print(new_url)
+      print(f"{new_url}\n\n")
       with open("token_url.txt", "a") as file:
         file.write(new_url + "\n")
     time.sleep(0.5)
