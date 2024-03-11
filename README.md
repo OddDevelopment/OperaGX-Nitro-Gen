@@ -1,3 +1,5 @@
+# PROJECT IS NO LONGER MAINTAINED!!! ⚠️
+
 ## How to use!?!??
 1. Install python
 2. Open console
